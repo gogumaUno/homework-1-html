@@ -84,10 +84,6 @@ li:last-child {
 	padding-right: 15px;
 }
 
-/*li span:first-child {
-	height: 33.33%;
-}*/
-
 li .svg {
     padding: 5px 0;
 }
@@ -97,10 +93,6 @@ li .pic {
 	height: 33.33%;
 	padding: 5px 0;	
 }
-
-/*li span:last-child {
-	height: 33.33%;
-}*/
 
 #block1 {
 	background-color: #05b3db;
