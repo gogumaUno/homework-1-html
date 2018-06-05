@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cubes Widget</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="src/css/style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<style>
+		@media all and (max-width: 450px) {
+			html {
+				font-size: 13px;
+			}
+		}
+		@media all and (max-width: 612px) {
+			.container {
+				margin: 0 auto;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="flex container">
+		<div class="flex block" id="block1">
+			<object class="svg" type="image/svg+xml" data="src/img/CRAlt.svg">
+				<img class="pic" src="src/img/CRAlt.svg" alt="rainy weather">
+			</object>
+			<p>Chicago / 23&#176;</p>
+		</div>
+		<div class="flex block" id="block2">
+			<object class="svg" type="image/svg+xml" data="src/img/Fog.svg">
+				<img class="pic" src="src/img/Fog.svg" alt="foggy weather">
+			</object>
+			<p>Seatle / 34&#176;</p>
+		</div>
+		<div class="flex block" id="block3">
+			<object class="svg" type="image/svg+xml" data="src/img/CS.svg">
+				<img class="pic" src="src/img/CS.svg" alt="partly cloudy weather">
+			</object>
+			<p>Brooklyn / 55&#176;</p>
+		</div>			
+		<div class="flex block" id="block4">
+			<object class="svg" type="image/svg+xml" data="src/img/CSS.svg">
+				<img class="pic" src="src/img/CSS.svg" alt="snowy weather">
+			</object>
+			<p>Portland / 27&#176;</p>
+		</div>
+		<div class="flex block" id="block5">
+			<header>
+				<object type="image/svg+xml" data="src/img/CWM.svg">
+					<img src="src/img/CWM.svg" alt="windy weather">
+				</object>
+			</header>
+			<ul>
+				<li>
+					<span>mon</span>
+					<object class="svg" type="image/svg+xml" data="src/img/blockCRAlt.svg">
+						<img class="pic" src="src/img/blockCRAlt.svg" alt="rainy">
+					</object>
+					<span>22&#176;</span>
+				</li>
+				<li>
+					<span>tue</span>
+					<object class="svg" type="image/svg+xml" data="src/img/blockCRAlt.svg">
+						<img class="pic" src="src/img/blockCRAlt.svg" alt="rainy">
+					</object>
+					<span>19&#176;</span>
+				</li>
+				<li>
+					<span>wen</span>
+					<object class="svg" type="image/svg+xml" data="src/img/blockCS.svg">
+						<img class="pic" src="src/img/blockCS.svg" alt="partly cloudy">
+					</object>
+					<span>18&#176;</span>
+				</li>
+				<li>
+					<span>thu</span>
+					<object class="svg" type="image/svg+xml" data="src/img/blockCloud.svg">
+						<img class="pic" src="src/img/blockCloud.svg" alt="cloudy">
+					</object>
+					<span>14&#176;</span>
+				</li>
+			</ul>
+		</div>
+		<div class="flex block" id="block6">
+			<object class="svg" type="image/svg+xml" data="src/img/Cloud.svg">
+				<img class="pic" src="src/img/Cloud.svg" alt="cloudy weather">
+			</object>
+			<p>San Jose / 47&#176;</p>
+		</div>
+	</div>
+</body>
+</html>
