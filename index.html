@@ -18,7 +18,6 @@
 			}
 			.block {
 				max-width: 50%;
-				max-height: 33.33%;
 			}
 		}
 	</style>
@@ -26,68 +25,78 @@
 <body>
 	<div class="flex container">
 		<div class="flex block first">
-			<object class="svg" type="image/svg+xml" data="src/img/CRAlt.svg">
-				<img class="pic" src="src/img/CRAlt.svg" alt="rainy weather">
-			</object>
+			<picture>
+				<source class="svg" srcset="src/img/CRAlt.svg" type="image/svg+xml">
+				<img class="svg" src="src/img/CRAlt.svg" alt="rainy weather">
+			</picture>
 			<p>Chicago / 23&#176;</p>
 		</div>
 		<div class="flex block second">
-			<object class="svg" type="image/svg+xml" data="src/img/Fog.svg">
-				<img class="pic" src="src/img/Fog.svg" alt="foggy weather">
-			</object>
+			<picture>
+				<source srcset="src/img/Fog.svg" type="image/svg+xml">
+				<img src="src/img/Fog.svg" alt="foggy weather">
+			</picture>
 			<p>Seatle / 34&#176;</p>
 		</div>
 		<div class="flex block third">
-			<object class="svg" type="image/svg+xml" data="src/img/CS.svg">
-				<img class="pic" src="src/img/CS.svg" alt="partly cloudy weather">
-			</object>
+			<picture>
+				<source srcset="src/img/CS.svg" type="image/svg+xml">
+				<img src="src/img/CS.svg" alt="partly cloudy weather">
+			</picture>
 			<p>Brooklyn / 55&#176;</p>
 		</div>			
 		<div class="flex block fourth">
-			<object class="svg" type="image/svg+xml" data="src/img/CSS.svg">
-				<img class="pic" src="src/img/CSS.svg" alt="snowy weather">
-			</object>
+			<picture>
+				<source srcset="src/img/CSS.svg" type="image/svg+xml">
+				<img src="src/img/CSS.svg" alt="snowy weather">
+			</picture>
 			<p>Portland / 27&#176;</p>
 		</div>
 		<div class="flex block fifth">
-			<object class="svg" type="image/svg+xml" data="src/img/CWM.svg">
-				<img class="pic" src="src/img/CWM.svg" alt="windy weather">
-			</object>
+			<picture id="fifth">
+				<source srcset="src/img/CWM.svg" type="image/svg+xml">
+				<img src="src/img/CWM.svg" alt="windy weather">
+			</picture>
 			<ul>
 				<li>
 					<span>mon</span>
-					<object class="svg" type="image/svg+xml" data="src/img/blockCRAlt.svg">
-						<img class="pic" src="src/img/blockCRAlt.svg" alt="rainy">
-					</object>
+					<picture>
+						<source srcset="src/img/CRAlt_copy.svg" type="image/svg+xml">
+						<img src="src/img/CRAlt_copy.svg" alt="rainy">
+					</picture>
 					<span>22&#176;</span>
 				</li>
 				<li>
 					<span>tue</span>
-					<object class="svg" type="image/svg+xml" data="src/img/blockCRAlt.svg">
-						<img class="pic" src="src/img/blockCRAlt.svg" alt="rainy">
-					</object>
+					<picture>
+						<source srcset="src/img/CRAlt_copy.svg" type="image/svg+xml">
+						<img src="src/img/CRAlt_copy.svg" alt="rainy">
+					</picture>
 					<span>19&#176;</span>
 				</li>
 				<li>
 					<span>wen</span>
-					<object class="svg" type="image/svg+xml" data="src/img/blockCS.svg">
-						<img class="pic" src="src/img/blockCS.svg" alt="partly cloudy">
-					</object>
+					<picture>
+						<source srcset="src/img/CS_copy.svg" type="image/svg+xml">
+						<img src="src/img/CS_copy.svg" alt="partly cloudy">
+					</picture>
 					<span>18&#176;</span>
 				</li>
 				<li>
 					<span>thu</span>
-					<object class="svg" type="image/svg+xml" data="src/img/blockCloud.svg">
-						<img class="pic" src="src/img/blockCloud.svg" alt="cloudy">
-					</object>
+					<picture>
+						<source srcset="src/img/Cloud_copy.svg" type="image/svg+xml">
+						<img src="src/img/Cloud_copy.svg" alt="cloudy">
+					</picture>
 					<span>14&#176;</span>
 				</li>
 			</ul>
 		</div>
 		<div class="flex block sixth">
-			<object class="svg" type="image/svg+xml" data="src/img/Cloud.svg">
-				<img class="pic" src="src/img/Cloud.svg" alt="cloudy weather">
-			</object>
+			<picture>
+				<source srcset="src/img/Cloud.svg" type="image/svg+xml">
+				<img src="src/img/Cloud.svg" alt="cloudy weather">
+			</picture>
 			<p>San Jose / 47&#176;</p>
 		</div>
 	</div>
