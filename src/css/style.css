@@ -67,7 +67,6 @@ ul {
 	height: 50%;
 	padding: 0;
 	margin: 0;
-	/*bottom: 0;*/
 }
 
 li {
@@ -77,6 +76,16 @@ li {
 	justify-content: space-around;
 	max-width: 25%;
 	font-size: .75rem;
+	padding-top: 5%;
+	padding-bottom: 5%; 
+}
+
+li:first-child {
+	padding-left: 5%;
+}
+
+li:last-child {
+	padding-right: 5%;
 }
 
 li > picture {
