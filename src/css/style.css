@@ -94,27 +94,27 @@ li .pic {
 	padding: 5px 0;	
 }
 
-#block1 {
+.first {
 	background-color: #05b3db;
 	text-shadow: 0px 1px 0px rgba(6,179,219,0.75);
 }
 
-#block2 {
+.second {
 	background-color: #4ed385;
 	text-shadow: 0px 1px 0px rgba(77,209,132,0.75);
 }
 
-#block3 {
+.third {
 	background-color: #6038f5;
 	text-shadow: 0px 1px 0px rgba(97,57,246,0.75);
 }
 
-#block4 {
+.fourth {
 	background-color: #e3b63d;
 	text-shadow: 0px 1px 0px rgba(227,182,61,0.75);
 }
 
-#block5 {
+.fifth {
 	background-color: #dc3d66;
 	display: inherit;
 	flex-direction: row;
@@ -122,7 +122,7 @@ li .pic {
 	align-items: flex-end;
 }
 
-#block6 {
+.sixth {
 	background-color: #bd53cd;
 	text-shadow: 0px 1px 0px rgba(189,84,205,0.75);
 }
