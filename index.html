@@ -11,6 +11,13 @@
 				font-size: 13px;
 			}
 		}
+
+		@media all and (min-width: 612px) {
+			.block {
+				height: 50%;
+			}
+		}
+
 		@media all and (max-width: 612px) {
 			.container {
 				margin: 0 auto;
@@ -18,13 +25,14 @@
 			}
 			.block {
 				max-width: 50%;
+				height: auto;
 			}
 		}
 	</style>
 </head>
 <body>
 	<div class="flex container">
-		<div class="flex block first">
+		<div class="flex block num first">
 			<picture>
 				<source srcset="src/img/CRAlt.svg" type="image/svg+xml">
 				<img src="src/img/CRAlt.svg" alt="rainy weather">
@@ -53,7 +61,7 @@
 			<p>Portland / 27&#176;</p>
 		</div>
 		<div class="flex block fifth">
-			<picture id="fifth">
+			<picture id="pic-block-5">
 				<source srcset="src/img/CWM.svg" type="image/svg+xml">
 				<img src="src/img/CWM.svg" alt="windy weather">
 			</picture>
