@@ -46,9 +46,12 @@ body {
 
 picture {
 	width: 100%;
-	max-height: 50%;
 	display: flex;
 	justify-content: center;
+}
+
+div > picture {
+	height: 50%
 }
 
 #pic-block-5 {
@@ -74,6 +77,10 @@ li {
 	justify-content: space-around;
 	max-width: 25%;
 	font-size: .75rem;
+}
+
+li > picture {
+	max-height: 50%;
 }
 
 .first {
